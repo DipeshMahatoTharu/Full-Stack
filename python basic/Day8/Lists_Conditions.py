@@ -117,3 +117,119 @@
 # 2
 
 
+# word = "Dipesh"
+# count=0
+# for letter in word:
+#     if letter.lower() in "aeiou":
+#         count=count +1 
+
+   
+# print(count)
+    
+    
+    
+#     Question 1: Print ONLY consonants
+# word = "programming"
+# Task:
+
+# Print only consonants.
+
+# Expected output:
+# p
+# r
+# g
+# r
+# m
+# m
+# n
+# g
+
+# word = "programming"
+# for letter in word:
+#     if letter.lower() not in "aeiou":
+#         print (letter)
+
+
+# Question 2: Count vowels in sentence
+# sentence = "I am learning Python"
+# Task:
+
+# Count how many vowels are in the sentence.
+
+# Expected output:
+# 6
+
+
+# sentence = "I am learning Python"
+# count=0
+# for letter in sentence:
+#     if letter.lower() in "aeiou":
+#         count =count +1
+
+        
+# print(count)
+
+
+
+# 🔵 Question 3: Count each letter frequency
+# 
+# Task:
+
+# Print frequency of each letter.
+
+# Expected output:
+# h = 1
+# e = 1
+# l = 2
+# o = 1
+
+word = "hello"
+freq = {}
+
+for letter in word:
+    if letter in freq:
+        freq[letter] += 1
+    else:
+        freq[letter] = 1
+
+for key in freq:
+    print(f"{key} = {freq[key]}")
+
+
+
+
+
+word = "hello"
+
+freq={}
+
+for letter in word:
+    if letter in freq:
+        freq[letter] +=1
+    else: 
+        freq[letter] =1
+
+for key in freq:
+    print(f"{key} = {freq[key]}")
+        
+
+# 🔥 Bonus Challenge (Hard)
+
+# Check if a word is Pangram letter check (simple version):
+
+# 👉 Does the word contain all vowels (a, e, i, o, u)?
+
+# word = "education"
+# Expected output:
+# All vowels present
+
+# OR
+
+# Missing vowels
+# 💡 Hints
+# Consonant check:
+# if letter not in "aeiou"
+# Vowel check:
+# if letter in "aeiou"
+# Dictionary idea:
+# freq = {}
