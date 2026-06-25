@@ -1,5 +1,5 @@
 # Day 9 Dictionary Challenge (30 Questions)
-# 🟢 Easy (1–10)
+#  Easy (1–10)
 # Q1
 # student = {
 #     "name": "Dipesh",
@@ -7,12 +7,13 @@
 # }
 
 # Print only age.
-
 # Q2
 
 # Add:
 
 # "country": "Nepal"
+
+
 # Q3
 
 # Update age to 21.
@@ -27,19 +28,48 @@
 # age
 # country
 # Q5
+# student = {
+#     "name": "Dipesh",
+#     "age": 20
+# }
+# print(student["age"])
+
+# student["country"]= "Nepal"
+# student["age"]="21"
+
+
+# print(student)
+
+
+# for num in student:
+#     print(num)
+#     print(student[num])
+
+
+
 
 # Print all values.
 
 # Q6
 
 # Count how many keys exist.
-
+# Check if "age" exists.
+# if "age" in student:
+#     print("age exist")
+# else:
+#     print("age doesnt exist")
+        
+        
+# count =0
+# for counting in student:
+#     count =count +1  
+    
+# print(count)
 # Expected:
 
 # 3
 # Q7
 
-# Check if "age" exists.
 
 # Print:
 
@@ -51,17 +81,26 @@
 # Q8
 
 # Check if "city" exists.
-
+# if "city" in student:
+#     print("city exist")
+# else:
+#     print("city doesnt exist")
+        
 # Q9
 
 # Create:
 
-# marks = {
-#     "math": 80,
-#     "science": 90,
-#     "english": 70
-# }
+marks = {
+    "math": 80,
+    "science": 90,
+    "english": 70
+}
 
+for subject in marks:
+    print(subject)
+    print(marks[subject])
+   
+    
 # Print all subjects.
 
 # Q10
