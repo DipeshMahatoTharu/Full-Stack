@@ -183,35 +183,35 @@
 # l = 2
 # o = 1
 
-word = "hello"
-freq = {}
+    # word = "hello"
+    # freq = {}
 
-for letter in word:
-    if letter in freq:
-        freq[letter] += 1
-    else:
-        freq[letter] = 1
+    # for letter in word:
+    #     if letter in freq:
+    #         freq[letter] += 1
+    #     else:
+    #         freq[letter] = 1
 
-for key in freq:
-    print(f"{key} = {freq[key]}")
-
-
+    # for key in freq:
+    #     print(f"{key} = {freq[key]}")
 
 
 
-word = "hello"
 
-freq={}
 
-for letter in word:
-    if letter in freq:
-        freq[letter] +=1
-    else: 
-        freq[letter] =1
+    # word = "hello"
 
-for key in freq:
-    print(f"{key} = {freq[key]}")
-        
+    # freq={}
+
+    # for letter in word:
+    #     if letter in freq:
+    #         freq[letter] +=1
+    #     else: 
+    #         freq[letter] =1
+
+    # for key in freq:
+    #     print(f"{key} = {freq[key]}")
+            
 
 # 🔥 Bonus Challenge (Hard)
 
