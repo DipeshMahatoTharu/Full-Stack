@@ -119,24 +119,34 @@
 # Q13
 
 # Calculate average marks.
-marks = {
-    "math": 80,
-    "science": 90,
-    "english": 70
-}
-total_marks=0
-average=0
+# marks = {
+#     "math": 80,
+#     "science": 90,
+#     "english": 70
+# }
+# total_marks=0
+# average=0
+# hightesrtmarks=0
+# lowestmarks=999999
+
+# for subject in marks:
+#     total_marks =marks[subject] +total_marks
+#     average=total_marks/3
+#     total_marks=
 
 
-for subject in marks:
-    total_marks =marks[subject] +total_marks
-    average=total_marks/3
+# print(average)
+
+# for subject in marks:
+#     if marks[subject] > hightesrtmarks:
+#         hightesrtmarks=marks[subject]
+#     if marks[subject] < lowestmarks:
+#         lowestmarks=marks[subject]
 
 
-
-print(average)
-
-
+# print(lowestmarks)
+        
+# print(hightesrtmarks)
 # Q14
 
 # Find highest mark.
@@ -155,6 +165,29 @@ print(average)
 #     "Sita": 90,
 #     "Gita": 40
 # }
+
+# student=0
+# passed_student=0
+# pass_marks=40
+# subject=0
+
+
+# for marks in students:
+#     student=student + 1 
+#     subject=subject +1 
+#     if students[marks] >=  40:
+#         print(f"{marks}  passed ")
+#         passed_student= passed_student + 1 
+#     else:
+#         print(f"{marks} Failed")
+
+
+# print(f"{student} students are  existed ")
+
+# print(f"{passed_student} student passed ." )
+
+# print(f"{subject} student are there." )
+
 
 # Pass mark = 40
 
@@ -186,7 +219,31 @@ print(average)
 # Count frequency of letters:
 
 # word = "banana"
+# b=0
+# a=0
+# n=0
+# for fre in word:
+#     if fre == "b" :
+#         b+=1
+#     elif fre == "a" : 
+#         a+=1
+#     elif fre == "n":
+#         n+=1
+# print(b)
+# print(a)
+# print(n)
+        
+# word = "banana"
+# freq = {}
 
+# for letter in word:
+#     if letter in freq:
+#         freq[letter] += 1
+#     else:
+#         freq[letter] = 1
+
+# print(freq)
+        
 # Expected:
 
 # b = 1
@@ -196,7 +253,20 @@ print(average)
 
 # Count frequency:
 
-# word = "programming"
+word = "programming"
+
+fre={}
+hight_fre={}
+
+for letter in word:
+    if letter in fre:
+        fre[letter]+=1
+    else:
+        fre[letter]=1
+    
+        
+print(fre)
+        
 # Q23
 
 # Find most repeated letter.
