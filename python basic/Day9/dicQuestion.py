@@ -256,34 +256,71 @@
 word = "programming"
 
 fre={}
-hight_fre={}
+higest =0
+highest_letter = ""
 
+leastnum=99999
+least_letter=""
 for letter in word:
     if letter in fre:
         fre[letter]+=1
     else:
         fre[letter]=1
     
-        
+    
 print(fre)
+
+
+
         
 # Q23
 
-# Find most repeated letter.
+# # Find most repeated letter.
+# for rep in fre:
+#     if fre[rep] > higest:
+#         higest = fre[rep]
+#         highest_letter=rep
+# print(higest)
+# print(highest_letter)
+# # Q24
 
-# Q24
-
-# Find least repeated letter.
-
-# Q25
-
-# Print letters appearing more than once.
+# # Find least repeated letter.
+# for rep in fre:
+#     if fre[rep] < leastnum:
+#         leastnum=fre[rep]
+#         least_letter=rep
+              
+# print(least_letter)   
+# print(leastnum)
+# # Q25
+# letter_more_then_one=""
+# # Print letters appearing more than once.
+# for rep in fre:
+#     if fre[rep] > 1:
+#        print(rep) 
+# print(letter_more_then_one)       
 
 # Q26
 
 # Count words:
 
-# sentence = "python python django python"
+sentence = "python python django python"
+word=sentence.split()
+
+print(word)
+freq = {}
+
+
+for number in word:
+    if number in freq:
+        freq[number]+=1
+    else:
+        freq[number]=1
+        
+print(freq) 
+
+
+
 
 # Expected:
 
