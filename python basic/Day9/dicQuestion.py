@@ -304,20 +304,35 @@ print(fre)
 
 # Count words:
 
-sentence = "python python django python"
-word=sentence.split()
+# sentence = "python python django python"
+# word=sentence.split()
 
-print(word)
-freq = {}
+# repeated=0
+# most_repeated_sentence=""
+# print(word)
+# freq = {}
 
 
-for number in word:
-    if number in freq:
-        freq[number]+=1
-    else:
-        freq[number]=1
+# for number in word:
+#     if number in freq:
+#         freq[number]+=1
+#     else:
+#         freq[number]=1
+    
+# for word in freq:
+#     if freq[word] >repeated:
+#         repeated=freq[word]
+#         most_repeated_sentence=word
+
+
+# print(freq)
+# print(most_repeated_sentence)
+
+         
+     
+     
         
-print(freq) 
+# print(freq) 
 
 
 
@@ -339,6 +354,12 @@ print(freq)
 # Q29
 
 # Merge two dictionaries.
+phonebook = {
+    "Ram": "9800000001",
+    "Sita": "9800000002"
+}
+
+name = input("Enter name: ")
 
 # Q30 ⭐
 
