@@ -1,0 +1,11 @@
+try:
+    # risky code
+
+except:
+    # handle error
+
+else:
+    # runs if no error
+
+finally:
+    # ALWAYS runs
