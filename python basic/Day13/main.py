@@ -1,123 +1,123 @@
-# class student:
+# # class student:
+# #     pass
+
+
+# # student1=student()
+# # student1.name="Dipesh"
+# # student1.age=23
+
+# # print(student1.name)
+
+
+# # class student:
+# #     pass
+
+# # student1 = student()
+
+# # student1.name = "Dipesh"
+# # student1.age = 23
+
+# # print(student1.name)
+# # print(student1.age) 
+
+
+# # class Dog:
+
+# #     pass
+
+# # dog1 = Dog()
+# # dog2 = Dog()
+
+# # print(dog1)
+# # print(dog2)
+
+
+
+# # Exercise 1
+
+# # Create a class Car, create 2 objects, and print them.
+# class Car:
 #     pass
 
 
-# student1=student()
-# student1.name="Dipesh"
-# student1.age=23
+# car1=Car()
+# car2 =Car()
 
-# print(student1.name)
-
-
-# class student:
-#     pass
-
-# student1 = student()
-
-# student1.name = "Dipesh"
-# student1.age = 23
-
-# print(student1.name)
-# print(student1.age) 
-
-
-# class Dog:
-
-#     pass
-
-# dog1 = Dog()
-# dog2 = Dog()
-
-# print(dog1)
-# print(dog2)
+# print(car1)
+# print(car2)
 
 
 
-# Exercise 1
+# # # Exercise 2
 
-# Create a class Car, create 2 objects, and print them.
-class Car:
-    pass
+# # # Create a class Phone, create 3 objects, and print them.
+# # class Phone:
+# #     pass
 
-
-car1=Car()
-car2 =Car()
-
-print(car1)
-print(car2)
+# # phone1=Phone()
+# # phone2=Phone()
+# # phone3=Phone()
 
 
 
-# # Exercise 2
+# # print(phone1)
+# # print(phone2)
+# # print(phone3)
+# # # Exercise 3
 
-# # Create a class Phone, create 3 objects, and print them.
-# class Phone:
-#     pass
+# # # Create your own class Laptop with 2 objects and print them.
 
-# phone1=Phone()
-# phone2=Phone()
-# phone3=Phone()
+# # # Exercise 4
 
-
-
-# print(phone1)
-# print(phone2)
-# print(phone3)
-# # Exercise 3
-
-# # Create your own class Laptop with 2 objects and print them.
-
-# # Exercise 4
-
-# # Create a class Book with 3 objects and print them.
+# # # Create a class Book with 3 objects and print them.
 
 
 
-# 🟢 Exercise 1 (Easy)
+# # 🟢 Exercise 1 (Easy)
 
-# Create a class:
+# # Create a class:
 
-class Car:
-    def __init__(self,brand,year):
-        self.brand=brand
-        self.year=year
-# Constructor should take:
+# class Car:
+#     def __init__(self,brand,year):
+#         self.brand=brand
+#         self.year=year
+# # Constructor should take:
 
-# brand
-# year
+# # brand
+# # year
 
-# Create:
-car1=Car("BMW",2022)
+# # Create:
+# car1=Car("BMW",2022)
 
-car2=Car("Toyota",2020)
+# car2=Car("Toyota",2020)
 
-print(car1.brand)
-print(car1.year)
-
-
-# Create a class:
-
-class Car:
-    def __init__(self,brand,year):
-        self.brand=brand
-        self.year=year
-# Constructor should take:
-
-# brand
-# year
-
-# Create:
-car1=Car("BMW",2022)
-
-car2=Car("Toyota",2020)
-
-print(car1.brand)
-print(car1.year)
+# print(car1.brand)
+# print(car1.year)
 
 
-print(car2.brand)
+# # Create a class:
 
-print(car2.year)
+# class Car:
+#     def __init__(self,brand,year):
+#         self.brand=brand
+#         self.year=year
+# # Constructor should take:
+
+# # brand
+# # year
+
+# # Create:
+# car1=Car("BMW",2022)
+
+# car2=Car("Toyota",2020)
+
+# print(car1.brand)
+# print(car1.year)
+
+
+# print(car2.brand)
+
+# print(car2.year)
 
 
 
@@ -134,10 +134,10 @@ print(car2.year)
 
 # Create a class:
 
-class Student:
-    def __init__(self,name,age):
-        self.name=name
-        self.age =age
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age =age
 
 # Constructor:
 
@@ -150,13 +150,13 @@ class Student:
 # Dipesh, 23
 # Ram, 20
 
-detail1=Student("Dipesh",22)
-detail2=Student("Ram",20)
+# detail1=Student("Dipesh",22)
+# detail2=Student("Ram",20)
 
-print(detail1.name)
-print(detail1.age)
-print(detail2.name)
-print(detail2.age)
+# print(detail1.name)
+# print(detail1.age)
+# print(detail2.name)
+# print(detail2.age)
 
 
 # Print both.
@@ -165,30 +165,30 @@ print(detail2.age)
 
 # Create a class:
 
-class Laptop:
-    def __init__(self,brand,name,price):
-        self.brand=brand 
-        self.name=name
-        self.price=price
+# class Laptop:
+#     def __init__(self,brand,name,price):
+#         self.brand=brand 
+#         self.name=name
+#         self.price=price
 
 
-# Constructor:
+# # Constructor:
 
-# brand
-# ram
-# price
+# # brand
+# # ram
+# # price
 
-laptop1=Laptop("Lenovo","Diepsh",90000)
-laptop2=Laptop("Asus Tuf","Ram",10500)
+# laptop1=Laptop("Lenovo","Diepsh",90000)
+# laptop2=Laptop("Asus Tuf","Ram",10500)
 
 
-print(laptop1.brand)
-print(laptop1.name)
-print(laptop1.price)
+# print(laptop1.brand)
+# print(laptop1.name)
+# print(laptop1.price)
 
-print(laptop2.brand)
-print(laptop2.name)
-print(laptop2.price)
+# print(laptop2.brand)
+# print(laptop2.name)
+# print(laptop2.price)
 
 
 
@@ -229,3 +229,123 @@ print(laptop2.price)
 #         ...
 
 # Create two phones and print their information.
+
+
+
+
+
+# 🟢 Exercise 1
+
+# Create a class:
+
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+        
+#     def studing(self):
+#         print(self.name ,"is studing ")
+
+
+# student1 =Student("dipesh")
+
+# student1.studing()
+# # Constructor:
+
+# name
+
+# Method:
+
+# study()
+
+# When called, it should print:
+
+# Dipesh is studying.
+# 🟢 Exercise 2
+
+# Create a class:
+
+# class Dog:
+#     def __init__(self, name):
+#         self.name=name
+
+#     def bark(self):
+#         print(self.name ,"says Woof")
+
+
+# Dog1=Dog("Tommy")
+# Dog1.bark()
+
+
+# Constructor:
+
+# name
+
+# Method:
+
+# bark()    
+
+# Output:
+
+# Tommy says Woof!
+# 🟢 Exercise 3
+
+# Create a class:
+
+class Car:
+    
+# Constructor:
+
+# brand
+    def __init__(self,brand):
+        self.brand=brand
+    def drive(self):
+        print(self.brand,"is Driving")
+
+    
+car1=Car("BMW")
+
+car1.drive()
+
+# Method:
+
+# drive()
+
+# Output:
+
+# BMW is driving.
+# 🟢 Exercise 4
+
+# Create a class:
+
+# Laptop
+
+# Constructor:
+
+# brand
+
+# Method:
+
+# start()
+
+# Output:
+
+# Dell is starting.
+# 🟢 Exercise 5
+
+# Create a class:
+
+# Book
+
+# Constructor:
+
+# title
+
+# Method:
+
+# read()
+
+# Output:
+
+# Reading Python Basics
+
+# (if the title is "Python Basics")
