@@ -48,25 +48,184 @@ print(car2)
 
 
 
-# Exercise 2
+# # Exercise 2
 
-# Create a class Phone, create 3 objects, and print them.
-class Phone:
-    pass
+# # Create a class Phone, create 3 objects, and print them.
+# class Phone:
+#     pass
 
-phone1=Phone()
-phone2=Phone()
-phone3=Phone()
+# phone1=Phone()
+# phone2=Phone()
+# phone3=Phone()
 
 
 
-print(phone1)
-print(phone2)
-print(phone3)
-# Exercise 3
+# print(phone1)
+# print(phone2)
+# print(phone3)
+# # Exercise 3
 
-# Create your own class Laptop with 2 objects and print them.
+# # Create your own class Laptop with 2 objects and print them.
 
-# Exercise 4
+# # Exercise 4
 
-# Create a class Book with 3 objects and print them.
+# # Create a class Book with 3 objects and print them.
+
+
+
+# 🟢 Exercise 1 (Easy)
+
+# Create a class:
+
+class Car:
+    def __init__(self,brand,year):
+        self.brand=brand
+        self.year=year
+# Constructor should take:
+
+# brand
+# year
+
+# Create:
+car1=Car("BMW",2022)
+
+car2=Car("Toyota",2020)
+
+print(car1.brand)
+print(car1.year)
+
+
+# Create a class:
+
+class Car:
+    def __init__(self,brand,year):
+        self.brand=brand
+        self.year=year
+# Constructor should take:
+
+# brand
+# year
+
+# Create:
+car1=Car("BMW",2022)
+
+car2=Car("Toyota",2020)
+
+print(car1.brand)
+print(car1.year)
+
+
+print(car2.brand)
+
+print(car2.year)
+
+
+
+# BMW, 2022
+# Toyota, 2020
+
+# Print:
+
+# BMW
+# 2022
+# Toyota
+# 2020
+# 🟢 Exercise 2
+
+# Create a class:
+
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age =age
+
+# Constructor:
+
+# name
+# age
+
+# Create:
+
+
+# Dipesh, 23
+# Ram, 20
+
+detail1=Student("Dipesh",22)
+detail2=Student("Ram",20)
+
+print(detail1.name)
+print(detail1.age)
+print(detail2.name)
+print(detail2.age)
+
+
+# Print both.
+
+# 🟢 Exercise 3
+
+# Create a class:
+
+class Laptop:
+    def __init__(self,brand,name,price):
+        self.brand=brand 
+        self.name=name
+        self.price=price
+
+
+# Constructor:
+
+# brand
+# ram
+# price
+
+laptop1=Laptop("Lenovo","Diepsh",90000)
+laptop2=Laptop("Asus Tuf","Ram",10500)
+
+
+print(laptop1.brand)
+print(laptop1.name)
+print(laptop1.price)
+
+print(laptop2.brand)
+print(laptop2.name)
+print(laptop2.price)
+
+
+
+# Create two laptops and print all information.
+
+# 🟢 Exercise 4
+
+# Create a class:
+
+# class Book:
+
+# Constructor:
+
+# title
+# author
+
+# Create 3 books and print them.
+
+# 🟢 Exercise 5
+
+# Create a class:
+
+# class Animal:
+
+# Constructor:
+
+# name
+# color
+
+# Create two animals and print them.
+
+# 🔥 Exercise 6 (Memory Test)
+
+# Without looking at previous code, write from memory:
+
+# class Phone:
+#     def __init__(self, brand, price):
+#         ...
+
+# Create two phones and print their information.
