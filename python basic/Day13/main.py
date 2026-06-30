@@ -342,8 +342,15 @@ laptop1.start()
 
 # Create a class:
 
-# Book
+class Book:
+    def __init__(self,title):
+        self.title=title
 
+    def read(self):
+        print("Reading",self.title)
+
+book1=Book("Python Basic")
+book1.read()
 # Constructor:
 
 # title
