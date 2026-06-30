@@ -316,7 +316,15 @@ car1.drive()
 # 🟢 Exercise 4
 
 # Create a class:
-
+class Laptop:
+    def __init__(self,brand):
+        self.brand=brand
+    
+    def start(self):
+        print(self.brand,"is starting")
+laptop1=Laptop("DELL")
+laptop1.start()
+    
 # Laptop
 
 # Constructor:
